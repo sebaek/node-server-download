@@ -5,7 +5,7 @@ const port = 3000;
 var downloadFolder = "C:/Users/user/Downloads/";
 var files = {
 	java: "jdk-8u231-windows-x64.exe",
-	eclipse: "eclipse-jee-2019-09-R-win32-x86_64.zip"
+	eclipse: "eclipse-jee-2019-12-R-win32-x86_64.zip"
 };
 
 
