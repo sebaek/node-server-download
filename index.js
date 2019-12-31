@@ -5,17 +5,20 @@ const port = 3000;
 var downloadFolder = "C:/Users/user/Downloads/";
 var files = {
 	java: "jdk-8u231-windows-x64.exe",
-	eclipse: "eclipse-jee-2019-12-R-win32-x86_64.zip"
+	eclipse: "eclipse-jee-2019-12-R-win32-x86_64.zip",
+	tomcat: "apache-tomcat-9.0.30-windows-x64.zip",
+	mysql: "mysql-installer-community-8.0.18.0.msi"
+
 };
 
 
 
 app.get('/', (req, res) => {
-	var body = '<body>';
+	var body = '<body><ul>';
 	for (let name in files) {
-		body += `<a href="${name}">${name}</a><br>`;
+		body += `<li><a href="${name}">${name}</a></li>`;
 	}
-	body += '</body>';
+	body += '</ul></body>';
 	res.send(body);
 });
 
