@@ -7,7 +7,8 @@ var files = {
 	java: "jdk-8u231-windows-x64.exe",
 	eclipse: "eclipse-jee-2019-12-R-win32-x86_64.zip",
 	tomcat: "apache-tomcat-9.0.30-windows-x64.zip",
-	mysql: "mysql-installer-community-8.0.18.0.msi"
+	//mysql: "mysql-installer-community-8.0.18.0.msi",
+	oracle: "OracleXE184_Win64.zip"
 
 };
 
